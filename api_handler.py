@@ -1,6 +1,6 @@
 import requests
 
-API_URL = "https://gpt.dzkj.top/api/openai/v1/chat/completions"
+API_URL = "https://chat.pandatalk.fun/api/openai/v1/chat/completions"
 
 def send_non_streaming_request(payload):
     """
