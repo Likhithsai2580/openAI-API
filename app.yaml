@@ -1,2 +1,0 @@
-runtime: python39  # Using Python 3.9 runtime
-entrypoint: gunicorn -w 4 -k uvicorn.workers.UvicornWorker main:app
